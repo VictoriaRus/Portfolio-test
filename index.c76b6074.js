@@ -1,2 +1,2 @@
 const e=document.getElementById("hamburger"),t=document.getElementById("menu"),n=document.getElementById("btn-close"),d=document.getElementById("navigation"),c=document.getElementById("social-media"),a=()=>{t.classList.add("menu-close"),document.body.style.overflow="auto"},o=e=>{e.target===e.target.closest(".menu")&&a(),("A"===e.target.tagName||"IMG"===e.target.tagName)&&a()};e.addEventListener("click",()=>{t.classList.remove("menu-close"),document.body.style.overflow="hidden"}),n.addEventListener("click",a),d.addEventListener("click",o),c.addEventListener("click",o),t.addEventListener("click",o);
-//# sourceMappingURL=index.11b98ac7.js.map
+//# sourceMappingURL=index.c76b6074.js.map
