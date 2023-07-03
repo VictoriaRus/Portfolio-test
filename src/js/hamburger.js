@@ -18,7 +18,7 @@ const close = (e) => {
     if (e.target === e.target.closest(".menu")) {
         closeMenu();
     }
-    if (e.target.tagName === "A" || e.target.tagName === "IMG") {
+    if (e.target.tagName === "LI" ||e.target.tagName === "A" || e.target.tagName === "IMG") {
         closeMenu();
     }
 }
