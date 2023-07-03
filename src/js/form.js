@@ -12,9 +12,13 @@ let isValidName = false;
 let isValidEmail = false;
 let isValidText = false;
 
+const onFocusName = () => errorName.innerHTML = "";
+const onFocusEmail = () => errorEmail.innerHTML = "";
+const onFocusText = () => errorText.innerHTML = "";
+
 const onBlurName = (e) => {
-    if (e.target.value < 3 || !REGULAR_NAME.test(String(e.target.value))) {
-        errorName.innerHTML = "Не верное имя";
+    if (!REGULAR_NAME.test(String(e.target.value)) || e.target.value.length < 3) {
+        errorName.innerHTML = "Не мение 3 букв";
         isValidName = false;
     } else {
         errorName.innerHTML = "";
@@ -33,7 +37,7 @@ const onBlurEmail = (e) => {
 };
 
 const onBlurText = (e) => {
-    if (e.target.value < 7) {
+    if (e.target.value.length < 7) {
         errorText.innerHTML = "Минимум 7 символов";
         isValidText = false;
     } else {
@@ -74,6 +78,11 @@ const send = async () => {
 };
 
 button.addEventListener("click", send);
+
 name.addEventListener("blur", onBlurName);
 email.addEventListener("blur", onBlurEmail);
 text.addEventListener("blur", onBlurText);
+
+name.addEventListener("focus", onFocusName);
+email.addEventListener("focus", onFocusEmail);
+text.addEventListener("focus", onFocusText);
