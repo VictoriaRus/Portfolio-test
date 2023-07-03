@@ -6,13 +6,13 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --public-url /Activebox/",
+    "build": "parcel build --public-url /Portfolio_Test/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "author": "Rusetskaya Vika",
   "license": "ISC",
-  "homepage": "https://github.com/Victoriarus.github.io/Portfolio-test/",
+  "homepage": "./",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0",
     "gh-pages": "^5.0.0",
