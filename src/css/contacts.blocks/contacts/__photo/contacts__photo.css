@@ -1,0 +1,13 @@
+.contacts__photo{
+    width: 400px;
+}
+
+.contacts__photo img{
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .contacts__photo{
+        display: none;
+    }
+}

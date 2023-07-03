@@ -1,0 +1,9 @@
+.benefit {
+    padding: 60px 0;
+}
+
+@media (max-width: 415px) {
+    .benefit {
+        padding: 40px 0;
+    }
+}

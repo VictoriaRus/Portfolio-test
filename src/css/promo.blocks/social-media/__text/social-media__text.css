@@ -1,0 +1,18 @@
+.social-media__text {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    position: relative;
+}
+
+.social-media__text::after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    background: var(--main-text-color);
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 163px;
+}

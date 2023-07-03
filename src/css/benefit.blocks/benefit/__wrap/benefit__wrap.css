@@ -1,0 +1,23 @@
+.benefit__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 65px;
+}
+
+@media (max-width: 820px) {
+    .benefit__wrap {
+        padding: 0 35px;
+    }
+}
+
+@media (max-width: 650px) {
+    .benefit__wrap {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 415px) {
+    .benefit__wrap {
+        padding: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.menu__socials {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu__socials a {
+    text-decoration: none;
+}
+
+.menu__socials img {
+    display: block;
+}

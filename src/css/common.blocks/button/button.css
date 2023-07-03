@@ -1,0 +1,21 @@
+.button {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 25px 12px 26px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: var(--hover-text-color);
+}
+
+.button_bg {
+    background: var(--main-color);
+    box-shadow: 0 4px 4px 0 var(--shadow-color);
+}
+
+.button_bg:hover {
+    background: var(--hover-color);
+}

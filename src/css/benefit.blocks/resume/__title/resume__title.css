@@ -1,0 +1,20 @@
+.resume__title {
+    margin: 0 0 45px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.resume__title::before {
+    content: "";
+    display: inline-block;
+    background-color: var(--main-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: -43px;
+    transform: translate(-50%, -50%);
+}

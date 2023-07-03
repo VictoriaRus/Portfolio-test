@@ -1,0 +1,4 @@
+.menu__wrap {
+    flex-grow: 10;
+    align-content: flex-end;
+}

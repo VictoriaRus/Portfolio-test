@@ -1,0 +1,8 @@
+.form__buttons-row {
+    position: relative;
+}
+@media (max-width: 415px) {
+    .form__buttons-row {
+        text-align: center;
+    }
+}

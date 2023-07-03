@@ -1,0 +1,9 @@
+.card__text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.card__text p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,16 @@
+.social-media {
+    width: 338px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotate(-90deg);
+    top: 50%;
+    left: -119px;
+}
+
+@media (max-width: 1360px) {
+    .social-media {
+        display: none;
+    }
+}

@@ -1,0 +1,41 @@
+.menu__content {
+    width: 348px;
+    height: 100vh;
+    padding: 24px 40px 50px 40px;
+    background-color: var(--main-color);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    animation-delay: 0s;
+    animation-duration: 0.25s;
+    animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: nav;
+}
+
+@keyframes nav {
+    from {
+        transform: translate(-348px, 0);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@media (max-width: 415px) {
+    .menu__content {
+        width: 320px;
+    }
+
+    @keyframes nav {
+        from {
+            transform: translate(-320px, 0);
+        }
+        to {
+            transform: translate(0, 0);
+        }
+    }
+}

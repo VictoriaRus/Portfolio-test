@@ -1,0 +1,10 @@
+.contacts__wrap {
+    display: flex;
+    padding: 0 35px 0 52px;
+}
+
+@media (max-width: 820px) {
+    .contacts__wrap {
+        padding: 0;
+    }
+}

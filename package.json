@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-test",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url /Activebox/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "author": "Rusetskaya Vika",
+  "license": "ISC",
+  "homepage": "https://github.com/Victoriarus.github.io/Portfolio-test/",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.5.0"
+  }
+}

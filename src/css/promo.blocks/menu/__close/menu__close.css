@@ -1,0 +1,12 @@
+.menu__close {
+    text-align: right;
+    cursor: pointer;
+    margin-bottom: 87px;
+    transform: translateX(15px);
+}
+
+@media(max-width: 738px) and  (orientation: landscape) {
+    .menu__close {
+        margin-bottom:0;
+    }
+}

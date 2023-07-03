@@ -1,0 +1,12 @@
+.card__title h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 0;
+}
+
+.card__title span {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}

@@ -1,0 +1,6 @@
+.contacts__social {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

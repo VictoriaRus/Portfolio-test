@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import "./colors.css";
+
+@import "./common.blocks/container/container.css";
+@import "./common.blocks/title/title.css";
+@import "./common.blocks/secondary-title/secondary-title.css";
+@import "./common.blocks/button/button.css";
+@import "./common.blocks/input/input.css";
+
+@import "./promo.blocks/promo/promo.css";
+@import "./promo.blocks/promo/__title/promo__title.css";
+@import "./promo.blocks/promo/__wrap/promo__wrap.css";
+@import "./promo.blocks/promo/__wrap-button/promo__wrap-buttons.css";
+@import "./promo.blocks/menu/menu.css";
+@import "./promo.blocks/menu/__content/menu__content.css";
+@import "./promo.blocks/menu/__close/menu__close.css";
+@import "./promo.blocks/menu/__socials/menu__socials.css";
+@import "./promo.blocks/menu/__wrap/menu__wrap.css";
+@import "./promo.blocks/navigation/navigation.css";
+@import "./promo.blocks/navigation/__list/navigation__list.css";
+@import "./promo.blocks/navigation/__item/navigation__item.css";
+@import "./promo.blocks/hamburger/hamburger.css";
+@import "./promo.blocks/social-media/social-media.css";
+@import "./promo.blocks/social-media/__text/social-media__text.css";
+@import "./promo.blocks/social-media/__link/social-media__link.css";
+@import "./promo.blocks/social-media/__wrap-icons/social-media__wrap-icons.css";
+
+@import "./benefit.blocks/benefit/benefit.css";
+@import "./benefit.blocks/benefit/__wrap/benefit__wrap.css";
+@import "./benefit.blocks/resume/resume.css";
+@import "./benefit.blocks/resume/__title/resume__title.css";
+@import "./benefit.blocks/card/card.css";
+@import "./benefit.blocks/card/__header/card__header.css";
+@import "./benefit.blocks/card/__img/card__img.css";
+@import "./benefit.blocks/card/__title/card__title.css";
+@import "./benefit.blocks/card/__text/card__text.css";
+
+@import "./contacts.blocks/contacts/contacts.css";
+@import "./contacts.blocks/contacts/__wrap/contacts__wrap.css";
+@import "./contacts.blocks/contacts/__photo/contacts__photo.css";
+@import "./contacts.blocks/contacts/__content/contacts__content.css";
+@import "./contacts.blocks/contacts/__text/contacts__text.css";
+@import "./contacts.blocks/contacts/__social/contacts__social.css";
+@import "./contacts.blocks/form/form.css";
+@import "./contacts.blocks/form/__wrap/form__wrap.css";
+@import "./contacts.blocks/form/__row/form__row.css";
+@import "./contacts.blocks/form/__buttons-row/form__buttons-row.css";
+@import "./contacts.blocks/form/__result/form__result.css";
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
